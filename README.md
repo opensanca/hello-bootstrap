@@ -2,6 +2,8 @@
 
 # Hello Bootstrap
 Neste workshop de introdução ao framework [Bootstrap](www.getbootstrap.com), estaremos explanando os conceitos de Mobile First, Grids e Responsividade.
+Carga horária: 4hrs
+Data: 23/7
 
 #### O que as pessoas irão ver nesse workshop de Bootstrap?
 
@@ -15,54 +17,54 @@ Não é necessário conhecimento prévio, mas seria interessante se o participan
 
 Sim, vamos fazer vários exemplos práticos de como funciona esse lado do Client-Side.
 
+#### Libs
 
-Libs, editores e afins?
+- [Baixar Bootstrap v3.3.6](http://www.getbootstrap.com), 
+- [Baixar jQuery v1.9.1](https://developers.google.com/speed/libraries/#jquery)
+- Editores de Texto, recomendamos o [Atom](https://atom.io/), [Notepad++](https://notepad-plus-plus.org/download/v6.9.2.html),[Sublime](https://www.sublimetext.com/) e etc. 
 
-Iremos usar a versão [3.3.6 do Bootstrap](http://www.getbootstrap.com), iremos fazer a instalação durante o workshop, será necessário usar o [jQuery] iremos ver como funciona o CDN e depois como usar em nosso projeto. 
-
-Para fazer a marcação de texto e criar a interface será necessário um editor de texto, no caso adote o que for mais conveniente para você recomendo [Atom], [Notepad++], [Sublime] e etc. 
-
-Carga horária: 4hrs
-Data: 23/7
 
 #### Ementa:
 
-- a) Overview
-- 1. O que é Bootstrap
-- 2. Como funciona as Grids
-- 3. Download da Lib (Bootstrap, jQuery)
-- 4. Google Fonts
-- 5. Font-Awesome
-- 6. Template Básico
+- I) Overview
+  - 1. O que é Bootstrap
+  - 2. Como funciona as Grids
+  - 3. Download da Lib (Bootstrap, jQuery)
+  - 4. Google Fonts
+  - 5. Font-Awesome
+  - 6. Template Básico
 
-- b) CSS
-- 1. Tabelas
-- 2. Formumários
-- 3. Botões
-- 4. Imagens
-- 5. Extras
+- II) CSS
+  - 1. Tabelas
+  - 2. Formumários
+  - 3. Botões
+  - 4. Imagens
+  - 5. Extras
 
-- c) Componentes
-- 1. Dropdown
-- 2. Botões
-- 3. Caixas de Alerta e Barra de Progresso
-- 4. Lists 
-- 5. Painéis
-- 6. Wells
+- III) Componentes
+  - 1. Dropdown
+  - 2. Botões
+  - 3. Caixas de Alerta e Barra de Progresso
+  - 4. Lists 
+  - 5. Painéis
+  - 6. Wells
 
-- d) Plugins JavaScript
-- 1. Dialogs(Janelas Modais)
-- 2. Dropdown
-- 3. Scrollspy
-- 4. Abas
-- 5. Tooltip
-- 6. Popover
+- IV) Plugins JavaScript
+  - 1. Dialogs(Janelas Modais)
+  - 2. Dropdown
+  - 3. Scrollspy
+  - 4. Abas
+  - 5. Tooltip
+  - 6. Popover
 
--e) Custom Bootstrap
- - 1. Bootswatch
- - 2. Componentes Auxiliares (full-calendar, jQuery.UI e ...)
-
-#### Libs: 
+ - V) Custom Bootstrap
+   - 1. [Bootswatch](https://bootswatch.com/)
+   - 2. [Full-calendar](http://fullcalendar.io/)
+   - 3. [jQuery.UI](https://jqueryui.com/) 
+   - 4. [Font-Awesome](http://fontawesome.io/)
+   - 5. [Google Fonts](https://www.google.com/fonts/specimen/Open+Sans)
+   - 6. [Color Guide](https://colordrop.io/)
+   - 7. [Images Full](https://unsplash.com/)
 
 ### Licença:
 MIT | [Opensanca 2016](www.opensanca.com.br)
