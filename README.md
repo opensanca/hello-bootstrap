@@ -1,6 +1,6 @@
 ![Bootstrap Logo](http://petsistemas.ufms.br/wp-content/uploads/2015/02/logo-bootstrap.jpg)
 
-# Hello Bootstrap
+# Hello Bootstrap!
 Neste workshop de introdução ao framework [Bootstrap](www.getbootstrap.com), estaremos explanando os conceitos de Mobile First, Grids e Responsividade.
 
 Carga horária: 4hrs | [Demo do Workshop](http://www.cristofersousa.com.br/ifsp/radioApp.html#)
