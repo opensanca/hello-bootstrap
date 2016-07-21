@@ -3,8 +3,7 @@
 # Hello Bootstrap
 Neste workshop de introdução ao framework [Bootstrap](www.getbootstrap.com), estaremos explanando os conceitos de Mobile First, Grids e Responsividade.
 
-Carga horária: 4hrs
-[Demo](http://www.cristofersousa.com.br/ifsp/radioApp.html#)
+Carga horária: 4hrs | [Demo do Workshop](http://www.cristofersousa.com.br/ifsp/radioApp.html#)
 
 #### O que as pessoas irão ver nesse workshop de Bootstrap?
 
