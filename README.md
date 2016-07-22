@@ -66,10 +66,11 @@ Sim, vamos fazer vários exemplos práticos de como funciona esse lado do Client
    - 5. [Google Fonts](https://www.google.com/fonts/specimen/Open+Sans)
    - 6. [Color Guide](https://colordrop.io/)
    - 7. [Images Full](https://unsplash.com/)
+   
 
  - VI) Referencias, links, books e more...
       - [Ebook Maujor - Novatec](https://github.com/opensanca/hello-bootstrap/blob/master/books/livro-bootmaujor.pdf)
 
 
 ### Licença:
-MIT | [Opensanca 2016](www.opensanca.com.br)
+[MIT | Creative Commons Attribution-NonCommercial-ShareAlike 4.0 ](https://github.com/opensanca/hello-bootstrap/blob/master/LICENSE.md) | [Opensanca 2016](www.opensanca.com.br)
