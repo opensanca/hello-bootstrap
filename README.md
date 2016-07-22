@@ -1,4 +1,4 @@
-![Bootstrap Logo](http://petsistemas.ufms.br/wp-content/uploads/2015/02/logo-bootstrap.jpg)
+![Bootstrap](http://www.designer-daily.com/wp-content/uploads/2013/05/bootstrap.jpg)
 
 # Hello Bootstrap!
 Neste workshop de introdução ao framework [Bootstrap](www.getbootstrap.com), estaremos explanando os conceitos de Mobile First, Grids e Responsividade.
