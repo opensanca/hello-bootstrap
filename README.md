@@ -3,7 +3,8 @@
 # Hello Bootstrap!
 Neste workshop de introdução ao framework [Bootstrap](www.getbootstrap.com), estaremos explanando os conceitos de Mobile First, Grids e Responsividade.
 
-Carga horária: 4hrs | [Demo do Workshop](http://www.cristofersousa.com.br/ifsp/radioApp.html#)
+Carga horária: 4hrs
+> [Clique para a ver a demo do Workshop](http://cristofersousa.com.br/opensanca/)
 
 #### O que as pessoas irão ver nesse workshop de Bootstrap?
 
@@ -66,7 +67,7 @@ Sim, vamos fazer vários exemplos práticos de como funciona esse lado do Client
    - 5. [Google Fonts](https://www.google.com/fonts/specimen/Open+Sans)
    - 6. [Color Guide](https://colordrop.io/)
    - 7. [Images Full](https://unsplash.com/)
-   
+
 
  - VI) Referencias, links, books e more...
       - [Ebook Maujor - Novatec](https://github.com/opensanca/hello-bootstrap/blob/master/books/livro-bootmaujor.pdf)
