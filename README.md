@@ -9,9 +9,9 @@ Carga horária: 4hrs | [Demo do Workshop](http://www.cristofersousa.com.br/ifsp/
 
 Este minicurso tem como objetivo fazer uma imersão para que os participantes possuam conhecimentos sobre o uso do Bootstrap, vamos conhecer como funciona as grids, como usar os componentes que o framework disponibiliza e como customizar para atender a sua demanda fugindo do convencional user interface (UI) padrão do Bootstrap.
 
-#### É necessário algum pré-requisito para o workshop? 
+#### É necessário algum pré-requisito para o workshop?
 
-Não é necessário conhecimento prévio, mas seria interessante se o participante tivesse alguma noção sobre HTML e CSS, senão tiver fique tranquilo que iremos explanar bastante isso. ;) 
+Não é necessário conhecimento prévio, mas seria interessante se o participante tivesse alguma noção sobre HTML e CSS, senão tiver fique tranquilo que iremos explanar bastante isso. ;)
 
 #### Quem nunca fez uso de linguagem de marcação (HTML) ou estilização (CSS) de um página web, pode participar?  
 
@@ -19,9 +19,9 @@ Sim, vamos fazer vários exemplos práticos de como funciona esse lado do Client
 
 #### Libs
 
-- [Baixar Bootstrap v3.3.6](http://www.getbootstrap.com), 
+- [Baixar Bootstrap v3.3.6](http://www.getbootstrap.com),
 - [Baixar jQuery v1.9.1](https://developers.google.com/speed/libraries/#jquery)
-- Editores de Texto, recomendamos o [Atom](https://atom.io/), [Notepad++](https://notepad-plus-plus.org/download/v6.9.2.html),[Sublime](https://www.sublimetext.com/) e etc. 
+- Editores de Texto, recomendamos o [Atom](https://atom.io/), [Notepad++](https://notepad-plus-plus.org/download/v6.9.2.html),[Sublime](https://www.sublimetext.com/) e etc.
 
 
 #### Ementa:
@@ -45,7 +45,7 @@ Sim, vamos fazer vários exemplos práticos de como funciona esse lado do Client
   - 1. Dropdown
   - 2. Botões
   - 3. Caixas de Alerta e Barra de Progresso
-  - 4. Lists 
+  - 4. Lists
   - 5. Painéis
   - 6. Wells
 
@@ -57,14 +57,19 @@ Sim, vamos fazer vários exemplos práticos de como funciona esse lado do Client
   - 5. Tooltip
   - 6. Popover
 
- - V) Custom Bootstrap
+
+- V) Custom Bootstrap
    - 1. [Bootswatch](https://bootswatch.com/)
    - 2. [Full-calendar](http://fullcalendar.io/)
-   - 3. [jQuery.UI](https://jqueryui.com/) 
+   - 3. [jQuery.UI](https://jqueryui.com/)
    - 4. [Font-Awesome](http://fontawesome.io/)
    - 5. [Google Fonts](https://www.google.com/fonts/specimen/Open+Sans)
    - 6. [Color Guide](https://colordrop.io/)
    - 7. [Images Full](https://unsplash.com/)
+
+ - VI) Referencias, links, books e more...
+      - [Ebook Maujor - Novatec](https://github.com/opensanca/hello-bootstrap/blob/master/books/livro-bootmaujor.pdf)
+
 
 ### Licença:
 MIT | [Opensanca 2016](www.opensanca.com.br)
