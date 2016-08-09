@@ -6,6 +6,9 @@ Neste workshop de introdução ao framework [Bootstrap](www.getbootstrap.com), e
 Carga horária: 4hrs
 > [Clique para a ver a demo do Workshop](http://cristofersousa.com.br/opensanca/)
 
+Apresentação: 
+> [SpeakerDeck.com/opensanca](https://speakerdeck.com/opensanca/hello-bootstrap)
+
 #### O que as pessoas irão ver nesse workshop de Bootstrap?
 
 Este minicurso tem como objetivo fazer uma imersão para que os participantes possuam conhecimentos sobre o uso do Bootstrap, vamos conhecer como funciona as grids, como usar os componentes que o framework disponibiliza e como customizar para atender a sua demanda fugindo do convencional user interface (UI) padrão do Bootstrap.
