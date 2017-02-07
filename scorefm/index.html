@@ -37,12 +37,12 @@
       footer{background-color:#e85647;}
 
       .breadcrumb {
-          padding: 8px 15px;
-          margin-bottom: 20px;
-          list-style: none;
-          background-color: transparent;
-          border-radius: 4px;
-          border-bottom: 1px solid white;
+        padding: 8px 15px;
+        margin-bottom: 20px;
+        list-style: none;
+        background-color: transparent;
+        border-radius: 4px;
+        border-bottom: 1px solid white;
       }
 
       a:focus, a:hover {
@@ -55,1263 +55,1267 @@
   <body>
 
     <header>
-     <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-default navbar-fixed-top">
 
-     <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuMobile" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">ScoreFM</a>
-    </div>
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuMobile" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">ScoreFM</a>
+          </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div id="menuMobile" class="navbar-collapse collapse">
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div id="menuMobile" class="navbar-collapse collapse">
 
-      <ul class="nav navbar-nav"> <!--play no header-->
-        <audio id="p1" src="pj.ogg"  preload="auto"> </audio>
-          <li class="active"> <a href="#" onclick="document.getElementById('p1').play()"><i class="fa fa-play"></i> </a> </li>
-           <li><a href="#"  onclick="document.getElementById('p1').pause()"><i class="fa fa-pause"></i> </a> </li>
-           <li><a href="#"  onclick="document.getElementById('p1').volume+=0.1"><i class="fa fa-volume-up"></i></a> </li>
-           <li><a href="#"  onclick="document.getElementById('p1').volume-=0.1"><i class="fa fa-volume-down"></i></a> </li>
-           <li><a href="#"> agora | Pearl Jam - Yellow Ledbetter </a></li>
-      </ul>
+            <ul class="nav navbar-nav"> <!--play no header-->
+              <audio id="p1" src="pj.ogg"  preload="auto"> </audio>
+              <li class="active"> <a href="#" onclick="document.getElementById('p1').play()"><i class="fa fa-play"></i> </a> </li>
+              <li><a href="#"  onclick="document.getElementById('p1').pause()"><i class="fa fa-pause"></i> </a> </li>
+              <li><a href="#"  onclick="document.getElementById('p1').volume+=0.1"><i class="fa fa-volume-up"></i></a> </li>
+              <li><a href="#"  onclick="document.getElementById('p1').volume-=0.1"><i class="fa fa-volume-down"></i></a> </li>
+              <li><a href="#"> agora | Pearl Jam - Yellow Ledbetter </a></li>
+            </ul>
 
-      <ul class="nav navbar-nav navbar-right"><!--campo busca-->
-        <form class="navbar-form navbar-left" role="search">
-        <div class="input-group">
-          <div class="form-group">
-          <input type="text" class="form-control" placeholder="agora, eu quero ouvir...">
-               <span class="input-group-btn">
-                 <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-              </span>
-        </div>
-      </div>
-      </form>
-      </ul>
-
-    </div><!-- /.navbar-collapse -->
-
-  </div><!-- /.container-fluid -->
-  </div>
-  </nav>
-</header>
-
-<!--start page-->
-<section>
-    <div class="container-fluid">
-
-      <ol class="breadcrumb">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Artistas</a></li>
-  <li class="active">Pink Floid</li>
-</ol>
-
-            <div class="col-md-4"> <!--photo banda-->
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Pink_Floyd_(1971).png" class="img-responsive center-block">
-                <p class="text-justify">Pink Floyd foi uma banda britânica de rock, formada em Londres em 1965, que atingiu sucesso internacional com sua música psicodélica e progressiva.
-                  Seu trabalho foi marcado pelo uso de letras filosóficas, experimentações musicais, encartes de álbuns inovadoras e shows elaborados. O Pink Floyd é um dos grupos de rock mais influentes e comercialmente bem-sucedidos da história. <br><br></p>
-
-                        <h3>Membros</h3>
-                        <p>
-                        David Gilmour — vocal, guitarra, baixo, teclado, efeitos especiais <br>
-                        Roger Waters — vocal, baixo, guitarra, percussão, programação <br>
-                        Richard Wright — teclado, vocal, órgão Hammond, piano, sintetizador, mellotron <br>
-                        Nick Mason — bateria, percussão, programação <br>
-                        Syd Barrett — vocal, guitarra<br>
-                        Bob Klose — guitarra </p>
-
-                        <audio style="display:none" src="rock.ogg"  preload="auto" controls>
-                        <p>Seu nevegador não suporta o elemento audio.</p>
-                        </audio>
-
-            </div>
-            <div class="col-md-8"> <!--sinopse-->
-               <h1> Pink Floyd</h1>
-               <!--modal-->
-               <button type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#myModal">
-                  <i class="fa fa-list"></i> Minha playlist</a>
-                </button>
-
-                <h3>Biografia</h3>
-                <p class="text-justify">
-                    A banda, originalmente, consistiu dos estudantes Roger Waters, Nick Mason, Richard Wright e Syd Barrett.
-                    Fundado em 1965, eles, inicialmente, tornaram-se populares tocando no cenário underground londrino, no fim dos anos 60.
-                    Sob a liderança de Barrett, lançaram dois singles de sucesso e um bem-sucedido álbum de estreia, The Piper at the Gates of Dawn, de 1967.
-                    David Gilmour foi integrado como o quinto membro em dezembro de 1967, enquanto Barrett saiu, em abril de 1968, por uma deterioração mental de motivos, até hoje, controversos.
-                     A partir deste período, a banda se readaptou, com a crescente ascensão de Waters como letrista e autor por trás dos conceitos de álbuns os quais tornaram-se
-                     notórios por parte do público e crítica, como The Dark Side of the Moon (1973), Wish You Were Here (1975), Animals (1977), The Wall (1979) e The Final Cut (1983). <br><br>
-                </p>
-
-                <h3>Discografia</h3>
-
-                   <div class="alert alert-warning alert-dismissible" role="alert">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    Clique no <strong> ver tracklist</strong> para listar as músicas de cada album...
+            <ul class="nav navbar-nav navbar-right"><!--campo busca-->
+              <form class="navbar-form navbar-left" role="search">
+                <div class="input-group">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="agora, eu quero ouvir...">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                    </span>
                   </div>
-
-
-
-
-             <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_piper.jpg" alt="" class="center-block">
-                         </div>
-
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: The Piper At The Gates Of Dawn </strong> <br>
-                                   <strong>Ano: 1967</strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong> <br> <br>
-
-                           <a role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                              <i class="fa fa-list"></i> Ver Tracklist
-                            </a>
-
-                            <div class="collapse" id="collapseExample">
-                              <div class="panel panel-default">
-
-                                <div class="panel-body">
-                                <table class="table table-hover">
-                                  <thead>
-                                    <tr>
-                                      <td>
-                                        <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox">
-                                        </label>
-                                      </div>
-                                      </td>
-                                      <td> # </td>
-                                      <td> Track   </td>
-                                      <td> Ação   </td>
-                                      <td> Salvar </td>
-                                  </tr>
-                                  </thead>
-                                  <tbody>
-                                    <tr>
-                                      <td>
-                                        <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox">
-                                        </label>
-                                      </div>
-                                    </td>
-                                      <td> 1 </td>
-                                      <td> Astronomy Dominé </td>
-                                      <td>
-
-                                          <button class="btn btn-primary btn-sm" name="button" onclick="document.getElementById('h1').play()">
-                                            <i class="fa fa-play"></i>
-                                          </button>
-
-
-                                          <button class="btn btn-primary btn-sm" name="button" onclick="document.getElementById('h1').pause()">
-                                            <i class="fa fa-pause"></i> <br>
-                                          </button>
-                                    </td>
-                                      <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
-                                    </tr>
-
-                                    <tr>
-                                      <td>
-                                        <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox">
-                                        </label>
-                                      </div>
-                                    </td>
-                                      <td> 2 </td>
-                                      <td> Lucifer Sam</td>
-                                      <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
-                                            <i class="fa fa-play"></i> <br>
-                                          </button>
-
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
-                                            <i class="fa fa-pause"></i> <br>
-                                          </button>
-                                    </td>
-                                    <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
-
-                                    </tr>
-
-
-                                    <tr>
-                                      <td>
-                                        <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox">
-                                        </label>
-                                      </div>
-                                    </td>
-                                      <td> 3 </td>
-                                      <td> Matilda Mother (alternate version on 40th anniversary reissue) </td>
-                                      <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
-                                            <i class="fa fa-play"></i> <br>
-                                          </button>
-
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
-                                            <i class="fa fa-pause"></i> <br>
-                                          </button>
-                                    </td>
-                                    <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
-
-                                    </tr>
-
-
-                                    <tr>
-                                      <td>
-                                        <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox">
-                                        </label>
-                                      </div>
-                                    </td>
-                                      <td> 4 </td>
-                                      <td> Flaming </td>
-                                      <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
-                                            <i class="fa fa-play"></i> <br>
-                                          </button>
-
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
-                                            <i class="fa fa-pause"></i> <br>
-                                          </button>
-                                    </td>                                      <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
-
-                                    </tr>
-
-
-                                    <tr>
-                                      <td>
-                                        <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox">
-                                        </label>
-                                      </div>
-                                    </td>
-                                      <td> 5 </td>
-                                      <td> Pow R. Toc H. </td>
-                                      <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
-                                            <i class="fa fa-play"></i> <br>
-                                          </button>
-
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
-                                            <i class="fa fa-pause"></i> <br>
-                                          </button>
-                                    </td>                                      <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
-
-                                    </tr>
-
-
-                                    <tr>
-                                      <td>
-                                        <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox">
-                                        </label>
-                                      </div>
-                                    </td>
-                                      <td> 6 </td>
-                                      <td> Take Up Thy Stethoscope And Walk</td>
-                                      <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
-                                            <i class="fa fa-play"></i> <br>
-                                          </button>
-
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
-                                            <i class="fa fa-pause"></i> <br>
-                                          </button>
-                                    </td>                                      <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
-
-                                    </tr>
-
-
-                                    <tr>
-                                      <td>
-                                        <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox">
-                                        </label>
-                                      </div>
-                                    </td>
-                                      <td> 7 </td>
-                                      <td> Interstellar Overdrive</td>
-                                      <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
-                                            <i class="fa fa-play"></i> <br>
-                                          </button>
-
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
-                                            <i class="fa fa-pause"></i> <br>
-                                          </button>
-                                    </td>                                      <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
-
-                                    </tr>
-
-
-                                    <tr>
-                                      <td>
-                                        <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox">
-                                        </label>
-                                      </div>
-                                    </td>
-                                      <td> 8 </td>
-                                      <td> The Gnome</td>
-                                      <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
-                                            <i class="fa fa-play"></i> <br>
-                                          </button>
-
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
-                                            <i class="fa fa-pause"></i> <br>
-                                          </button>
-                                    </td>                                      <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
-
-                                    </tr>
-
-
-                                    <tr>
-                                      <td>
-                                        <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox">
-                                        </label>
-                                      </div>
-                                    </td>
-                                      <td> 9 </td>
-                                      <td> Chapter 24</td>
-                                      <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
-                                            <i class="fa fa-play"></i> <br>
-                                          </button>
-
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
-                                            <i class="fa fa-pause"></i> <br>
-                                          </button>
-                                    </td>                                      <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
-
-                                    </tr>
-
-                                    <tr>
-                                      <td>
-                                        <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox">
-                                        </label>
-                                      </div>
-                                    </td>
-                                      <td> 10 </td>
-                                      <td> Scarecrow</td>
-                                      <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
-                                            <i class="fa fa-play"></i> <br>
-                                          </button>
-
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
-                                            <i class="fa fa-pause"></i> <br>
-                                          </button>
-                                    </td>
-                                    <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
-
-                                    </tr>
-
-
-                                    <tr>
-                                      <td>
-                                        <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox">
-                                        </label>
-                                      </div>
-                                    </td>
-                                      <td> 11 </td>
-                                      <td> Bike</td>
-                                      <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
-                                            <i class="fa fa-play"></i> <br>
-                                          </button>
-
-                                          <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
-                                            <i class="fa fa-pause"></i> <br>
-                                          </button>
-                                    </td>
-                                    <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </div>
-                            </div>
-                         </div>
-                       </div>
-
-
-                         <div class="col-md-2">
-                           <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                           <div>
-                             <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                             <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                             <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                             <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                           </div>
-                         </div>
-
-
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-                <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_saucer.jpg" alt="" class="center-block">
-                         </div>
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: A Saucerful Of Secrets </strong> <br>
-                                   <strong>Ano: 1968</strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong> <br> <br>
-                              </p>
-
-                            <a class="" role="button" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                               <i class="fa fa-list"></i> Ver Tracklist
-                             </a>
-
-                             <div class="collapse" id="collapseExample2">
-                               <div class="well well-lg">
-                                 <ol>
-                                   <li>Astronomy Dominé</li>
-                                   <li>Lucifer Sam</li>
-                                   <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
-                                   <li>Flaming</li>
-                                   <li>Pow R. Toc H.</li>
-                                   <li>Take Up Thy Stethoscope And Walk</li>
-                                   <li>Interstellar Overdrive</li>
-                                   <li>The Gnome</li>
-                                   <li>Chapter 24</li>
-                                   <li>Scarecrow</li>
-                                   <li>Bike</li>
-                                 </ol>
-                               </div>
-                             </div>
-                          </div>
-
-                          <div class="col-md-2">
-                            <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                            <div>
-                              <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                            </div>
-                          </div>
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-                <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_more.jpg" alt="" class="center-block">
-                         </div>
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: More </strong> <br>
-                                   <strong>Ano: 1969</strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong>
-                                   <br> <br>
-                              </p>
-
-                            <a class="" role="button" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
-                               <i class="fa fa-list"></i> Ver Tracklist
-                             </a>
-                             <div class="row">
-                               <div class="col-md-12">
-                                 <div class="collapse" id="collapseExample3">
-                                   <div class="well well-lg">
-                                     <ol>
-                                       <li>Astronomy Dominé</li>
-                                       <li>Lucifer Sam</li>
-                                       <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
-                                       <li>Flaming</li>
-                                       <li>Pow R. Toc H.</li>
-                                       <li>Take Up Thy Stethoscope And Walk</li>
-                                       <li>Interstellar Overdrive</li>
-                                       <li>The Gnome</li>
-                                       <li>Chapter 24</li>
-                                       <li>Scarecrow</li>
-                                       <li>Bike</li>
-                                     </ol>
-                                   </div>
-                                 </div>
-                               </div>
-                             </div>
-
-
-                          </div>
-
-                          <div class="col-md-2">
-                            <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                            <div>
-                              <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                            </div>
-                          </div>
-
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-                <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_umma.jpg" alt="" class="center-block">
-                         </div>
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: Ummagumma </strong> <br>
-                                   <strong>Ano: 1969</strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong><br> <br>
-                              </p>
-
-                            <a class="" role="button" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
-                               <i class="fa fa-list"></i> Ver Tracklist
-                             </a>
-
-                             <div class="collapse" id="collapseExample4">
-                               <div class="well well-lg">
-                                 <ol>
-                                   <li>Astronomy Dominé</li>
-                                   <li>Lucifer Sam</li>
-                                   <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
-                                   <li>Flaming</li>
-                                   <li>Pow R. Toc H.</li>
-                                   <li>Take Up Thy Stethoscope And Walk</li>
-                                   <li>Interstellar Overdrive</li>
-                                   <li>The Gnome</li>
-                                   <li>Chapter 24</li>
-                                   <li>Scarecrow</li>
-                                   <li>Bike</li>
-                                 </ol>
-                               </div>
-                             </div>
-                          </div>
-
-                          <div class="col-md-2">
-                            <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                            <div>
-                              <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                            </div>
-                          </div>
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-               <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_atom.jpg" alt="" class="center-block">
-                         </div>
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: Atom Heart Mother</strong> <br>
-                                   <strong>Ano: 1970</strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong><br> <br>
-                              </p>
-
-                            <a class="" role="button" data-toggle="collapse" href="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
-                               <i class="fa fa-list"></i> Ver Tracklist
-                             </a>
-
-                             <div class="collapse" id="collapseExample5">
-                               <div class="well well-lg">
-                                 <ol>
-                                   <li>Astronomy Dominé</li>
-                                   <li>Lucifer Sam</li>
-                                   <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
-                                   <li>Flaming</li>
-                                   <li>Pow R. Toc H.</li>
-                                   <li>Take Up Thy Stethoscope And Walk</li>
-                                   <li>Interstellar Overdrive</li>
-                                   <li>The Gnome</li>
-                                   <li>Chapter 24</li>
-                                   <li>Scarecrow</li>
-                                   <li>Bike</li>
-                                 </ol>
-                               </div>
-                             </div>
-                          </div>
-
-                          <div class="col-md-2">
-                            <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                            <div>
-                              <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                            </div>
-                          </div>
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-                 <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_meddle.jpg" alt="" class="center-block">
-                         </div>
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: Meddle</strong> <br>
-                                   <strong>Ano: 1971</strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong><br> <br>
-                              </p>
-
-                            <a class="" role="button" data-toggle="collapse" href="#collapseExample6" aria-expanded="false" aria-controls="collapseExample">
-                               <i class="fa fa-list"></i> Ver Tracklist
-                             </a>
-
-                             <div class="collapse" id="collapseExample6">
-                               <div class="well well-lg">
-                                 <ol>
-                                   <li>Astronomy Dominé</li>
-                                   <li>Lucifer Sam</li>
-                                   <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
-                                   <li>Flaming</li>
-                                   <li>Pow R. Toc H.</li>
-                                   <li>Take Up Thy Stethoscope And Walk</li>
-                                   <li>Interstellar Overdrive</li>
-                                   <li>The Gnome</li>
-                                   <li>Chapter 24</li>
-                                   <li>Scarecrow</li>
-                                   <li>Bike</li>
-                                 </ol>
-                               </div>
-                             </div>
-                          </div>
-
-                          <div class="col-md-2">
-                            <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                            <div>
-                              <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                            </div>
-                          </div>
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-
-                <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_obscured.jpg" alt="" class="center-block">
-                         </div>
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: Obscured By Clouds</strong> <br>
-                                   <strong>Ano: 1972</strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong><br> <br>
-                              </p>
-
-                            <a class="" role="button" data-toggle="collapse" href="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">
-                               <i class="fa fa-list"></i> Ver Tracklist
-                             </a>
-
-                             <div class="collapse" id="collapseExample7">
-                               <div class="well well-lg">
-                                 <ol>
-                                   <li>Astronomy Dominé</li>
-                                   <li>Lucifer Sam</li>
-                                   <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
-                                   <li>Flaming</li>
-                                   <li>Pow R. Toc H.</li>
-                                   <li>Take Up Thy Stethoscope And Walk</li>
-                                   <li>Interstellar Overdrive</li>
-                                   <li>The Gnome</li>
-                                   <li>Chapter 24</li>
-                                   <li>Scarecrow</li>
-                                   <li>Bike</li>
-                                 </ol>
-                               </div>
-                             </div>
-                          </div>
-
-                          <div class="col-md-2">
-                            <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                            <div>
-                              <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                            </div>
-                          </div>
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-
-               <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_dsom.jpg" alt="" class="center-block">
-                         </div>
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: The Dark Side of the Moon</strong> <br>
-                                   <strong>Ano: 1973</strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong><br> <br>
-                              </p>
-
-                            <a class="" role="button" data-toggle="collapse" href="#collapseExample8" aria-expanded="false" aria-controls="collapseExample">
-                               <i class="fa fa-list"></i> Ver Tracklist
-                             </a>
-
-                             <div class="collapse" id="collapseExample8">
-                               <div class="well well-lg">
-                                 <ol>
-                                   <li>Astronomy Dominé</li>
-                                   <li>Lucifer Sam</li>
-                                   <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
-                                   <li>Flaming</li>
-                                   <li>Pow R. Toc H.</li>
-                                   <li>Take Up Thy Stethoscope And Walk</li>
-                                   <li>Interstellar Overdrive</li>
-                                   <li>The Gnome</li>
-                                   <li>Chapter 24</li>
-                                   <li>Scarecrow</li>
-                                   <li>Bike</li>
-                                 </ol>
-                               </div>
-                             </div>
-                          </div>
-
-                          <div class="col-md-2">
-                            <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                            <div>
-                              <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                            </div>
-                          </div>
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-                <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_wish.jpg" alt="" class="center-block">
-                         </div>
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: Wish You Were Here</strong> <br>
-                                   <strong>Ano: 1975</strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong><br> <br>
-                              </p>
-
-                            <a class="" role="button" data-toggle="collapse" href="#collapseExample9" aria-expanded="false" aria-controls="collapseExample">
-                               <i class="fa fa-list"></i> Ver Tracklist
-                             </a>
-
-                             <div class="collapse" id="collapseExample9">
-                               <div class="well well-lg">
-                                 <ol>
-                                   <li>Astronomy Dominé</li>
-                                   <li>Lucifer Sam</li>
-                                   <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
-                                   <li>Flaming</li>
-                                   <li>Pow R. Toc H.</li>
-                                   <li>Take Up Thy Stethoscope And Walk</li>
-                                   <li>Interstellar Overdrive</li>
-                                   <li>The Gnome</li>
-                                   <li>Chapter 24</li>
-                                   <li>Scarecrow</li>
-                                   <li>Bike</li>
-                                 </ol>
-                               </div>
-                             </div>
-                          </div>
-
-                          <div class="col-md-2">
-                            <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                            <div>
-                              <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                            </div>
-                          </div>
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-                <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_animals.jpg" alt="" class="center-block">
-                         </div>
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: Animals</strong> <br>
-                                   <strong>Ano: 1977</strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong><br> <br>
-                              </p>
-
-                            <a class="" role="button" data-toggle="collapse" href="#collapseExample10" aria-expanded="false" aria-controls="collapseExample">
-                               <i class="fa fa-list"></i> Ver Tracklist
-                             </a>
-
-                             <div class="collapse" id="collapseExample10">
-                               <div class="well well-lg">
-                                 <ol>
-                                   <li>Astronomy Dominé</li>
-                                   <li>Lucifer Sam</li>
-                                   <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
-                                   <li>Flaming</li>
-                                   <li>Pow R. Toc H.</li>
-                                   <li>Take Up Thy Stethoscope And Walk</li>
-                                   <li>Interstellar Overdrive</li>
-                                   <li>The Gnome</li>
-                                   <li>Chapter 24</li>
-                                   <li>Scarecrow</li>
-                                   <li>Bike</li>
-                                 </ol>
-                               </div>
-                             </div>
-                          </div>
-
-                          <div class="col-md-2">
-                            <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                            <div>
-                              <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                            </div>
-                          </div>
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-                <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_wall.jpg" alt="" class="center-block">
-                         </div>
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: The Wall</strong> <br>
-                                   <strong>Ano: 1979</strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong><br> <br>
-                              </p>
-
-                            <a class="" role="button" data-toggle="collapse" href="#collapseExample11" aria-expanded="false" aria-controls="collapseExample">
-                               <i class="fa fa-list"></i> Ver Tracklist
-                             </a>
-
-                             <div class="collapse" id="collapseExample11">
-                               <div class="well well-lg">
-                                 <ol>
-                                   <li>Astronomy Dominé</li>
-                                   <li>Lucifer Sam</li>
-                                   <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
-                                   <li>Flaming</li>
-                                   <li>Pow R. Toc H.</li>
-                                   <li>Take Up Thy Stethoscope And Walk</li>
-                                   <li>Interstellar Overdrive</li>
-                                   <li>The Gnome</li>
-                                   <li>Chapter 24</li>
-                                   <li>Scarecrow</li>
-                                   <li>Bike</li>
-                                 </ol>
-                               </div>
-                             </div>
-                          </div>
-
-                          <div class="col-md-2">
-                            <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                            <div>
-                              <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                            </div>
-                          </div>
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-                 <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_final.jpg" alt="" class="center-block">
-                         </div>
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: The Final Cut</strong> <br>
-                                   <strong>Ano: 1983</strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong><br> <br>
-                              </p>
-
-                            <a class="" role="button" data-toggle="collapse" href="#collapseExample12" aria-expanded="false" aria-controls="collapseExample">
-                               <i class="fa fa-list"></i> Ver Tracklist
-                             </a>
-
-                             <div class="collapse" id="collapseExample12">
-                               <div class="well well-lg">
-                                 <ol>
-                                   <li>Astronomy Dominé</li>
-                                   <li>Lucifer Sam</li>
-                                   <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
-                                   <li>Flaming</li>
-                                   <li>Pow R. Toc H.</li>
-                                   <li>Take Up Thy Stethoscope And Walk</li>
-                                   <li>Interstellar Overdrive</li>
-                                   <li>The Gnome</li>
-                                   <li>Chapter 24</li>
-                                   <li>Scarecrow</li>
-                                   <li>Bike</li>
-                                 </ol>
-                               </div>
-                             </div>
-                          </div>
-
-                          <div class="col-md-2">
-                            <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                            <div>
-                              <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                            </div>
-                          </div>
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-                  <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_mlor.jpg" alt="" class="center-block">
-                         </div>
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: A Momentary Lapse Of Reason</strong> <br>
-                                   <strong>Ano: 1987/strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong><br> <br>
-                              </p>
-
-                            <a class="" role="button" data-toggle="collapse" href="#collapseExample13" aria-expanded="false" aria-controls="collapseExample">
-                               <i class="fa fa-list"></i> Ver Tracklist
-                             </a>
-
-                             <div class="collapse" id="collapseExample13">
-                               <div class="well well-lg">
-                                 <ol>
-                                   <li>Astronomy Dominé</li>
-                                   <li>Lucifer Sam</li>
-                                   <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
-                                   <li>Flaming</li>
-                                   <li>Pow R. Toc H.</li>
-                                   <li>Take Up Thy Stethoscope And Walk</li>
-                                   <li>Interstellar Overdrive</li>
-                                   <li>The Gnome</li>
-                                   <li>Chapter 24</li>
-                                   <li>Scarecrow</li>
-                                   <li>Bike</li>
-                                 </ol>
-                               </div>
-                             </div>
-                          </div>
-
-                          <div class="col-md-2">
-                            <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                            <div>
-                              <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                            </div>
-                          </div>
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-                  <div class="row">
-                 <div class="panel panel-default">
-                     <div class="panel-body">
-                         <div class="col-md-3">
-                             <img src="http://www.pinkfloyd.com/music/images/discography/thumb_divbell.jpg" alt="" class="center-block">
-                         </div>
-                          <div class="col-md-6">
-                              <p>
-                                  <strong>Album: The Division Bell</strong> <br>
-                                   <strong>Ano: 1994</strong><br>
-                                   <strong>Gravadora: XYZ </strong><br>
-                                   <strong>News: ver mais... </strong><br> <br>
-                              </p>
-
-                            <a class="" role="button" data-toggle="collapse" href="#collapseExample14" aria-expanded="false" aria-controls="collapseExample">
-                               <i class="fa fa-list"></i> Ver Tracklist
-                             </a>
-
-                             <div class="collapse" id="collapseExample14">
-                               <div class="well well-lg">
-                                 <ol>
-                                   <li>Astronomy Dominé</li>
-                                   <li>Lucifer Sam</li>
-                                   <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
-                                   <li>Flaming</li>
-                                   <li>Pow R. Toc H.</li>
-                                   <li>Take Up Thy Stethoscope And Walk</li>
-                                   <li>Interstellar Overdrive</li>
-                                   <li>The Gnome</li>
-                                   <li>Chapter 24</li>
-                                   <li>Scarecrow</li>
-                                   <li>Bike</li>
-                                 </ol>
-                               </div>
-                             </div>
-                          </div>
-
-                          <div class="col-md-2">
-                            <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
-                            <div>
-                              <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
-                              <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
-                            </div>
-                          </div>
-                     </div>
-                    </div>
-                   </div> <!--/row-->
-
-
-                   <!-- Modal -->
-                  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title text-center" id="myModalLabel">Minha PlayList</h4>
-                        </div>
-                        <div class="modal-body">
-                          <div class="row">
-                              <div class="col-md-12">
-                                <form class="" role="search">
-                                  <div class="input-group">
-                                  <input type="text" class="form-control pull-left" placeholder="buscar novo artista, banda ou música...">
-                                       <span class="input-group-btn">
-                                         <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-                                      </span>
+                </div>
+              </form>
+            </ul>
+
+          </div><!-- /.navbar-collapse -->
+
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+
+    <!--start page-->
+    <section>
+      <div class="container-fluid">
+
+        <ol class="breadcrumb">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Artistas</a></li>
+          <li class="active">Pink Floid</li>
+        </ol>
+
+        <div class="col-md-4"> <!--photo banda-->
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Pink_Floyd_(1971).png" class="img-responsive center-block">
+          <p class="text-justify">Pink Floyd foi uma banda britânica de rock, formada em Londres em 1965, que atingiu sucesso internacional com sua música psicodélica e progressiva.
+          Seu trabalho foi marcado pelo uso de letras filosóficas, experimentações musicais, encartes de álbuns inovadoras e shows elaborados. O Pink Floyd é um dos grupos de rock mais influentes e comercialmente bem-sucedidos da história. <br><br></p>
+
+          <h3>Membros</h3>
+          <p>
+          David Gilmour — vocal, guitarra, baixo, teclado, efeitos especiais <br>
+          Roger Waters — vocal, baixo, guitarra, percussão, programação <br>
+          Richard Wright — teclado, vocal, órgão Hammond, piano, sintetizador, mellotron <br>
+          Nick Mason — bateria, percussão, programação <br>
+          Syd Barrett — vocal, guitarra<br>
+          Bob Klose — guitarra </p>
+
+          <audio style="display:none" src="rock.ogg"  preload="auto" controls>
+            <p>Seu nevegador não suporta o elemento audio.</p>
+          </audio>
+
+        </div>
+        <div class="col-md-8"> <!--sinopse-->
+          <h1> Pink Floyd</h1>
+          <!--modal-->
+          <button type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#myModal">
+            <i class="fa fa-list"></i> Minha playlist
+          </button>
+
+          <h3>Biografia</h3>
+          <p class="text-justify">
+          A banda, originalmente, consistiu dos estudantes Roger Waters, Nick Mason, Richard Wright e Syd Barrett.
+          Fundado em 1965, eles, inicialmente, tornaram-se populares tocando no cenário underground londrino, no fim dos anos 60.
+          Sob a liderança de Barrett, lançaram dois singles de sucesso e um bem-sucedido álbum de estreia, The Piper at the Gates of Dawn, de 1967.
+          David Gilmour foi integrado como o quinto membro em dezembro de 1967, enquanto Barrett saiu, em abril de 1968, por uma deterioração mental de motivos, até hoje, controversos.
+          A partir deste período, a banda se readaptou, com a crescente ascensão de Waters como letrista e autor por trás dos conceitos de álbuns os quais tornaram-se
+          notórios por parte do público e crítica, como The Dark Side of the Moon (1973), Wish You Were Here (1975), Animals (1977), The Wall (1979) e The Final Cut (1983). <br><br>
+          </p>
+
+          <h3>Discografia</h3>
+
+          <div class="alert alert-warning alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            Clique no <strong> ver tracklist</strong> para listar as músicas de cada album...
+          </div>
+
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_piper.jpg" alt="" class="center-block">
+                </div>
+
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: The Piper At The Gates Of Dawn </strong> <br>
+                  <strong>Ano: 1967</strong><br>
+                  <strong>Gravadora: XYZ </strong><br>
+                  <strong>News: ver mais... </strong> <br> <br>
+                  </p>
+
+                  <a role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+
+                  <div class="collapse" id="collapseExample">
+                    <div class="panel panel-default">
+
+                      <div class="panel-body">
+                        <table class="table table-hover">
+                          <thead>
+                            <tr>
+                              <td>
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox">
+                                  </label>
                                 </div>
-                              </form>
-                              </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-12">
-                              <table class="table table-striped">
+                              </td>
+                              <td> # </td>
+                              <td> Track   </td>
+                              <td> Ação   </td>
+                              <td> Salvar </td>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox">
+                                  </label>
+                                </div>
+                              </td>
+                              <td> 1 </td>
+                              <td> Astronomy Dominé </td>
+                              <td>
 
-                                <thead class="text-center">
-                                  <tr class="warning">
-                                    <td> # </td>
-                                    <td> Ouvir </td>
-                                    <td> Artista </td>
-                                    <td> Música  </td>
-                                    <td> Ação </td>
-                                  </tr>
-                                </thead>
-                                <tbody class="text-center">
-                                  <tr>
-                                    <td> 1 </td>
-                                    <td>
-                                      <ul class="list-inline play">
-                                          <li> <i class="fa fa-play"></i> </li>
-                                          <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
-                                      </ul>
-                                    </td>
-                                    <td> Nirvana </td>
-                                    <td> Paranoid</td>
-                                    <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
-                                          <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
-                                    </td>
-                                  </tr>
-
-                                  <tr>
-                                    <td> 2 </td>
-                                    <td>
-                                      <ul class="list-inline play">
-                                          <li> <i class="fa fa-play"></i> </li>
-                                          <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
-                                      </ul>
-                                    </td>
-                                    <td> Guns N Roses </td>
-                                    <td> Welcome to the Jungle </td>
-                                    <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
-                                          <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
-                                    </td>
-                                  </tr>
-
-                                  <tr>
-                                    <td> 3 </td>
-                                    <td>
-                                      <ul class="list-inline play">
-                                          <li> <i class="fa fa-play"></i> </li>
-                                          <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
-                                      </ul>
-                                    </td>
-                                    <td> Manowar </td>
-                                    <td> Courage</td>
-                                    <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
-                                          <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
-                                    </td>
-                                  </tr>
-
-                                  <tr>
-                                    <td> 4 </td>
-                                    <td>
-                                      <ul class="list-inline play">
-                                          <li> <i class="fa fa-play"></i> </li>
-                                          <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
-                                      </ul>
-                                    </td>
-                                    <td> Deep Purple </td>
-                                    <td> Paranoid</td>
-                                    <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
-                                          <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
-                                    </td>
-                                  </tr>
-
-                                  <tr>
-                                    <td> 5 </td>
-                                    <td>
-                                      <ul class="list-inline play">
-                                          <li> <i class="fa fa-play"></i> </li>
-                                          <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
-                                      </ul>
-                                    </td>
-                                    <td> Rhapsody </td>
-                                    <td> Halloween</td>
-                                    <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
-                                          <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
-                                    </td>
-                                  </tr>
-
-                                  <tr>
-                                    <td> 6 </td>
-                                    <td>
-                                      <ul class="list-inline play">
-                                          <li> <i class="fa fa-play"></i> </li>
-                                          <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
-                                      </ul>
-                                    </td>
-                                    <td> Metalica </td>
-                                    <td> Master of Puppets </td>
-                                    <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
-                                          <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
-                                    </td>
-                                  </tr>
-
-                                  <tr>
-                                    <td> 7 </td>
-                                    <td>
-                                      <ul class="list-inline play">
-                                          <li> <i class="fa fa-play"></i> </li>
-                                          <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
-                                      </ul>
-                                    </td>
-                                    <td> Dio </td>
-                                    <td> Holy Diver  </td>
-                                    <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
-                                          <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
-                                    </td>
-                                  </tr>
-
-                                  <tr class="default">
-                                    <td> 8 </td>
-                                    <td>
-                                      <ul class="list-inline play">
-                                          <li> <a href="#"><i class="fa fa-play text-primary"></i> <span class="sr-only">(current)</span></a></li>
-                                          <li><i class="fa fa-pause "></i></a> </li>
-                                      </ul>
-                                    </td>
-                                    <td> Pearl Jam </td>
-                                    <td> Yellow Ledbetter  </td>
-                                    <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
-                                          <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
-                                    </td>
-                                  </tr>
+                                <button class="btn btn-primary btn-sm" name="button" onclick="document.getElementById('h1').play()">
+                                  <i class="fa fa-play"></i>
+                                </button>
 
 
-                                </tbody>
+                                <button class="btn btn-primary btn-sm" name="button" onclick="document.getElementById('h1').pause()">
+                                  <i class="fa fa-pause"></i> <br>
+                                </button>
+                              </td>
+                              <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
+                            </tr>
+
+                            <tr>
+                              <td>
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox">
+                                  </label>
+                                </div>
+                              </td>
+                              <td> 2 </td>
+                              <td> Lucifer Sam</td>
+                              <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
+                                  <i class="fa fa-play"></i> <br>
+                                </button>
+
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
+                                  <i class="fa fa-pause"></i> <br>
+                                </button>
+                              </td>
+                              <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
+
+                            </tr>
 
 
-                              </table>
-                            </div>
-                          </div>
-                        </div><!--/modal-body-->
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
-                          <button type="button" class="btn btn-primary">Salvar</button>
+                            <tr>
+                              <td>
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox">
+                                  </label>
+                                </div>
+                              </td>
+                              <td> 3 </td>
+                              <td> Matilda Mother (alternate version on 40th anniversary reissue) </td>
+                              <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
+                                  <i class="fa fa-play"></i> <br>
+                                </button>
+
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
+                                  <i class="fa fa-pause"></i> <br>
+                                </button>
+                              </td>
+                              <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
+
+                            </tr>
+
+
+                            <tr>
+                              <td>
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox">
+                                  </label>
+                                </div>
+                              </td>
+                              <td> 4 </td>
+                              <td> Flaming </td>
+                              <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
+                                  <i class="fa fa-play"></i> <br>
+                                </button>
+
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
+                                  <i class="fa fa-pause"></i> <br>
+                                </button>
+                              </td>
+                              <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
+
+                            </tr>
+
+
+                            <tr>
+                              <td>
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox">
+                                  </label>
+                                </div>
+                              </td>
+                              <td> 5 </td>
+                              <td> Pow R. Toc H. </td>
+                              <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
+                                  <i class="fa fa-play"></i> <br>
+                                </button>
+
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
+                                  <i class="fa fa-pause"></i> <br>
+                                </button>
+                              </td>
+                              <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
+
+                            </tr>
+
+
+                            <tr>
+                              <td>
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox">
+                                  </label>
+                                </div>
+                              </td>
+                              <td> 6 </td>
+                              <td> Take Up Thy Stethoscope And Walk</td>
+                              <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
+                                  <i class="fa fa-play"></i> <br>
+                                </button>
+
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
+                                  <i class="fa fa-pause"></i> <br>
+                                </button>
+                              </td>
+                              <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
+
+                            </tr>
+
+
+                            <tr>
+                              <td>
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox">
+                                  </label>
+                                </div>
+                              </td>
+                              <td> 7 </td>
+                              <td> Interstellar Overdrive</td>
+                              <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
+                                  <i class="fa fa-play"></i> <br>
+                                </button>
+
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
+                                  <i class="fa fa-pause"></i> <br>
+                                </button>
+                              </td>
+                              <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
+
+                            </tr>
+
+
+                            <tr>
+                              <td>
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox">
+                                  </label>
+                                </div>
+                              </td>
+                              <td> 8 </td>
+                              <td> The Gnome</td>
+                              <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
+                                  <i class="fa fa-play"></i> <br>
+                                </button>
+
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
+                                  <i class="fa fa-pause"></i> <br>
+                                </button>
+                              </td>
+                              <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
+
+                            </tr>
+
+
+                            <tr>
+                              <td>
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox">
+                                  </label>
+                                </div>
+                              </td>
+                              <td> 9 </td>
+                              <td> Chapter 24</td>
+                              <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
+                                  <i class="fa fa-play"></i> <br>
+                                </button>
+
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
+                                  <i class="fa fa-pause"></i> <br>
+                                </button>
+                              </td>
+                              <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
+
+                            </tr>
+
+                            <tr>
+                              <td>
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox">
+                                  </label>
+                                </div>
+                              </td>
+                              <td> 10 </td>
+                              <td> Scarecrow</td>
+                              <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
+                                  <i class="fa fa-play"></i> <br>
+                                </button>
+
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
+                                  <i class="fa fa-pause"></i> <br>
+                                </button>
+                              </td>
+                              <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
+
+                            </tr>
+
+
+                            <tr>
+                              <td>
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox">
+                                  </label>
+                                </div>
+                              </td>
+                              <td> 11 </td>
+                              <td> Bike</td>
+                              <td> <audio id="h1" src="oasis.ogg"  preload="auto"> </audio>
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').play()">
+                                  <i class="fa fa-play"></i> <br>
+                                </button>
+
+                                <button class="btn btn-primary" name="button" onclick="document.getElementById('h1').stop()">
+                                  <i class="fa fa-pause"></i> <br>
+                                </button>
+                              </td>
+                              <td><button type="submit" class="btn btn-success" name="button"> <i class="fa fa-save"></i>  </button></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#" onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#" onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#" onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div> <!--/row-->
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_saucer.jpg" alt="" class="center-block">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: A Saucerful Of Secrets </strong> <br>
+                  <strong>Ano: 1968</strong><br>
+                  <strong>Gravadora: XYZ </strong><br>
+                  <strong>News: ver mais... </strong> <br> <br>
+                  </p>
+
+                  <a class="" role="button" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+
+                  <div class="collapse" id="collapseExample2">
+                    <div class="well well-lg">
+                      <ol>
+                        <li>Astronomy Dominé</li>
+                        <li>Lucifer Sam</li>
+                        <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
+                        <li>Flaming</li>
+                        <li>Pow R. Toc H.</li>
+                        <li>Take Up Thy Stethoscope And Walk</li>
+                        <li>Interstellar Overdrive</li>
+                        <li>The Gnome</li>
+                        <li>Chapter 24</li>
+                        <li>Scarecrow</li>
+                        <li>Bike</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--/row-->
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_more.jpg" alt="" class="center-block">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: More </strong> <br>
+                  <strong>Ano: 1969</strong><br>
+                  <strong>Gravadora: XYZ </strong><br>
+                  <strong>News: ver mais... </strong>
+                  <br> <br>
+                  </p>
+
+                  <a class="" role="button" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="collapse" id="collapseExample3">
+                        <div class="well well-lg">
+                          <ol>
+                            <li>Astronomy Dominé</li>
+                            <li>Lucifer Sam</li>
+                            <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
+                            <li>Flaming</li>
+                            <li>Pow R. Toc H.</li>
+                            <li>Take Up Thy Stethoscope And Walk</li>
+                            <li>Interstellar Overdrive</li>
+                            <li>The Gnome</li>
+                            <li>Chapter 24</li>
+                            <li>Scarecrow</li>
+                            <li>Bike</li>
+                          </ol>
                         </div>
                       </div>
                     </div>
                   </div>
 
+
+                </div>
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+
+              </div>
             </div>
+          </div> <!--/row-->
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_umma.jpg" alt="" class="center-block">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: Ummagumma </strong> <br>
+                  <strong>Ano: 1969</strong><br>
+                  <strong>Gravadora: XYZ </strong><br>
+                  <strong>News: ver mais... </strong><br> <br>
+                  </p>
+
+                  <a class="" role="button" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+
+                  <div class="collapse" id="collapseExample4">
+                    <div class="well well-lg">
+                      <ol>
+                        <li>Astronomy Dominé</li>
+                        <li>Lucifer Sam</li>
+                        <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
+                        <li>Flaming</li>
+                        <li>Pow R. Toc H.</li>
+                        <li>Take Up Thy Stethoscope And Walk</li>
+                        <li>Interstellar Overdrive</li>
+                        <li>The Gnome</li>
+                        <li>Chapter 24</li>
+                        <li>Scarecrow</li>
+                        <li>Bike</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--/row-->
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_atom.jpg" alt="" class="center-block">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: Atom Heart Mother</strong> <br>
+                  <strong>Ano: 1970</strong><br>
+                  <strong>Gravadora: XYZ </strong><br>
+                  <strong>News: ver mais... </strong><br> <br>
+                  </p>
+
+                  <a class="" role="button" data-toggle="collapse" href="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+
+                  <div class="collapse" id="collapseExample5">
+                    <div class="well well-lg">
+                      <ol>
+                        <li>Astronomy Dominé</li>
+                        <li>Lucifer Sam</li>
+                        <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
+                        <li>Flaming</li>
+                        <li>Pow R. Toc H.</li>
+                        <li>Take Up Thy Stethoscope And Walk</li>
+                        <li>Interstellar Overdrive</li>
+                        <li>The Gnome</li>
+                        <li>Chapter 24</li>
+                        <li>Scarecrow</li>
+                        <li>Bike</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--/row-->
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_meddle.jpg" alt="" class="center-block">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: Meddle</strong> <br>
+                  <strong>Ano: 1971</strong><br>
+                  <strong>Gravadora: XYZ </strong><br>
+                  <strong>News: ver mais... </strong><br> <br>
+                  </p>
+
+                  <a class="" role="button" data-toggle="collapse" href="#collapseExample6" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+
+                  <div class="collapse" id="collapseExample6">
+                    <div class="well well-lg">
+                      <ol>
+                        <li>Astronomy Dominé</li>
+                        <li>Lucifer Sam</li>
+                        <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
+                        <li>Flaming</li>
+                        <li>Pow R. Toc H.</li>
+                        <li>Take Up Thy Stethoscope And Walk</li>
+                        <li>Interstellar Overdrive</li>
+                        <li>The Gnome</li>
+                        <li>Chapter 24</li>
+                        <li>Scarecrow</li>
+                        <li>Bike</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--/row-->
+
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_obscured.jpg" alt="" class="center-block">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: Obscured By Clouds</strong> <br>
+                  <strong>Ano: 1972</strong><br>
+                  <strong>Gravadora: XYZ </strong><br>
+                  <strong>News: ver mais... </strong><br> <br>
+                  </p>
+
+                  <a class="" role="button" data-toggle="collapse" href="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+
+                  <div class="collapse" id="collapseExample7">
+                    <div class="well well-lg">
+                      <ol>
+                        <li>Astronomy Dominé</li>
+                        <li>Lucifer Sam</li>
+                        <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
+                        <li>Flaming</li>
+                        <li>Pow R. Toc H.</li>
+                        <li>Take Up Thy Stethoscope And Walk</li>
+                        <li>Interstellar Overdrive</li>
+                        <li>The Gnome</li>
+                        <li>Chapter 24</li>
+                        <li>Scarecrow</li>
+                        <li>Bike</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--/row-->
+
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_dsom.jpg" alt="" class="center-block">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: The Dark Side of the Moon</strong> <br>
+                  <strong>Ano: 1973</strong><br>
+                  <strong>Gravadora: XYZ </strong><br>
+                  <strong>News: ver mais... </strong><br> <br>
+                  </p>
+
+                  <a class="" role="button" data-toggle="collapse" href="#collapseExample8" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+
+                  <div class="collapse" id="collapseExample8">
+                    <div class="well well-lg">
+                      <ol>
+                        <li>Astronomy Dominé</li>
+                        <li>Lucifer Sam</li>
+                        <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
+                        <li>Flaming</li>
+                        <li>Pow R. Toc H.</li>
+                        <li>Take Up Thy Stethoscope And Walk</li>
+                        <li>Interstellar Overdrive</li>
+                        <li>The Gnome</li>
+                        <li>Chapter 24</li>
+                        <li>Scarecrow</li>
+                        <li>Bike</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--/row-->
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_wish.jpg" alt="" class="center-block">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: Wish You Were Here</strong> <br>
+                  <strong>Ano: 1975</strong><br>
+                  <strong>Gravadora: XYZ </strong><br>
+                  <strong>News: ver mais... </strong><br> <br>
+                  </p>
+
+                  <a class="" role="button" data-toggle="collapse" href="#collapseExample9" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+
+                  <div class="collapse" id="collapseExample9">
+                    <div class="well well-lg">
+                      <ol>
+                        <li>Astronomy Dominé</li>
+                        <li>Lucifer Sam</li>
+                        <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
+                        <li>Flaming</li>
+                        <li>Pow R. Toc H.</li>
+                        <li>Take Up Thy Stethoscope And Walk</li>
+                        <li>Interstellar Overdrive</li>
+                        <li>The Gnome</li>
+                        <li>Chapter 24</li>
+                        <li>Scarecrow</li>
+                        <li>Bike</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--/row-->
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_animals.jpg" alt="" class="center-block">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: Animals</strong> <br>
+                  <strong>Ano: 1977</strong><br>
+                  <strong>Gravadora: XYZ </strong><br>
+                  <strong>News: ver mais... </strong><br> <br>
+                  </p>
+
+                  <a class="" role="button" data-toggle="collapse" href="#collapseExample10" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+
+                  <div class="collapse" id="collapseExample10">
+                    <div class="well well-lg">
+                      <ol>
+                        <li>Astronomy Dominé</li>
+                        <li>Lucifer Sam</li>
+                        <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
+                        <li>Flaming</li>
+                        <li>Pow R. Toc H.</li>
+                        <li>Take Up Thy Stethoscope And Walk</li>
+                        <li>Interstellar Overdrive</li>
+                        <li>The Gnome</li>
+                        <li>Chapter 24</li>
+                        <li>Scarecrow</li>
+                        <li>Bike</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--/row-->
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_wall.jpg" alt="" class="center-block">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: The Wall</strong> <br>
+                  <strong>Ano: 1979</strong><br>
+                  <strong>Gravadora: XYZ </strong><br>
+                  <strong>News: ver mais... </strong><br> <br>
+                  </p>
+
+                  <a class="" role="button" data-toggle="collapse" href="#collapseExample11" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+
+                  <div class="collapse" id="collapseExample11">
+                    <div class="well well-lg">
+                      <ol>
+                        <li>Astronomy Dominé</li>
+                        <li>Lucifer Sam</li>
+                        <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
+                        <li>Flaming</li>
+                        <li>Pow R. Toc H.</li>
+                        <li>Take Up Thy Stethoscope And Walk</li>
+                        <li>Interstellar Overdrive</li>
+                        <li>The Gnome</li>
+                        <li>Chapter 24</li>
+                        <li>Scarecrow</li>
+                        <li>Bike</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--/row-->
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_final.jpg" alt="" class="center-block">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: The Final Cut</strong> <br>
+                  <strong>Ano: 1983</strong><br>
+                  <strong>Gravadora: XYZ </strong><br>
+                  <strong>News: ver mais... </strong><br> <br>
+                  </p>
+
+                  <a class="" role="button" data-toggle="collapse" href="#collapseExample12" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+
+                  <div class="collapse" id="collapseExample12">
+                    <div class="well well-lg">
+                      <ol>
+                        <li>Astronomy Dominé</li>
+                        <li>Lucifer Sam</li>
+                        <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
+                        <li>Flaming</li>
+                        <li>Pow R. Toc H.</li>
+                        <li>Take Up Thy Stethoscope And Walk</li>
+                        <li>Interstellar Overdrive</li>
+                        <li>The Gnome</li>
+                        <li>Chapter 24</li>
+                        <li>Scarecrow</li>
+                        <li>Bike</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--/row-->
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_mlor.jpg" alt="" class="center-block">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: A Momentary Lapse Of Reason</strong> <br>
+                  <strong>Ano: 1987</strong><br>
+                    <strong>Gravadora: XYZ </strong><br>
+                    <strong>News: ver mais... </strong>
+                  </p>
+
+                  <a class="" role="button" data-toggle="collapse" href="#collapseExample13" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+
+                  <div class="collapse" id="collapseExample13">
+                    <div class="well well-lg">
+                      <ol>
+                        <li>Astronomy Dominé</li>
+                        <li>Lucifer Sam</li>
+                        <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
+                        <li>Flaming</li>
+                        <li>Pow R. Toc H.</li>
+                        <li>Take Up Thy Stethoscope And Walk</li>
+                        <li>Interstellar Overdrive</li>
+                        <li>The Gnome</li>
+                        <li>Chapter 24</li>
+                        <li>Scarecrow</li>
+                        <li>Bike</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--/row-->
+
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="http://www.pinkfloyd.com/music/images/discography/thumb_divbell.jpg" alt="" class="center-block">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                  <strong>Album: The Division Bell</strong> <br>
+                  <strong>Ano: 1994</strong><br>
+                  <strong>Gravadora: XYZ </strong><br>
+                  <strong>News: ver mais... </strong><br> <br>
+                  </p>
+
+                  <a class="" role="button" data-toggle="collapse" href="#collapseExample14" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-list"></i> Ver Tracklist
+                  </a>
+
+                  <div class="collapse" id="collapseExample14">
+                    <div class="well well-lg">
+                      <ol>
+                        <li>Astronomy Dominé</li>
+                        <li>Lucifer Sam</li>
+                        <li>Matilda Mother (alternate version on 40th anniversary reissue)</li>
+                        <li>Flaming</li>
+                        <li>Pow R. Toc H.</li>
+                        <li>Take Up Thy Stethoscope And Walk</li>
+                        <li>Interstellar Overdrive</li>
+                        <li>The Gnome</li>
+                        <li>Chapter 24</li>
+                        <li>Scarecrow</li>
+                        <li>Bike</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <audio id="demo" src="rock.ogg"  preload="auto"> </audio>
+                  <div>
+                    <a href="#" onclick="document.getElementById('demo').play()"><i class="fa fa-play"></i> Ouvir</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').pause()"><i class="fa fa-pause"></i> Pausar</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume+=0.1"><i class="fa fa-volume-up"></i> + Volume</a> <br>
+                    <a href="#"  onclick="document.getElementById('demo').volume-=0.1"><i class="fa fa-volume-down"></i> - Volume</a> <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--/row-->
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title text-center" id="myModalLabel">Minha PlayList</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <form class="" role="search">
+                        <div class="input-group">
+                          <input type="text" class="form-control pull-left" placeholder="buscar novo artista, banda ou música...">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                          </span>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <table class="table table-striped">
+
+                        <thead class="text-center">
+                          <tr class="warning">
+                            <td> # </td>
+                            <td> Ouvir </td>
+                            <td> Artista </td>
+                            <td> Música  </td>
+                            <td> Ação </td>
+                          </tr>
+                        </thead>
+                        <tbody class="text-center">
+                          <tr>
+                            <td> 1 </td>
+                            <td>
+                              <ul class="list-inline play">
+                                <li> <i class="fa fa-play"></i> </li>
+                                <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
+                              </ul>
+                            </td>
+                            <td> Nirvana </td>
+                            <td> Paranoid</td>
+                            <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
+                              <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td> 2 </td>
+                            <td>
+                              <ul class="list-inline play">
+                                <li> <i class="fa fa-play"></i> </li>
+                                <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
+                              </ul>
+                            </td>
+                            <td> Guns N Roses </td>
+                            <td> Welcome to the Jungle </td>
+                            <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
+                              <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td> 3 </td>
+                            <td>
+                              <ul class="list-inline play">
+                                <li> <i class="fa fa-play"></i> </li>
+                                <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
+                              </ul>
+                            </td>
+                            <td> Manowar </td>
+                            <td> Courage</td>
+                            <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
+                              <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td> 4 </td>
+                            <td>
+                              <ul class="list-inline play">
+                                <li> <i class="fa fa-play"></i> </li>
+                                <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
+                              </ul>
+                            </td>
+                            <td> Deep Purple </td>
+                            <td> Paranoid</td>
+                            <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
+                              <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td> 5 </td>
+                            <td>
+                              <ul class="list-inline play">
+                                <li> <i class="fa fa-play"></i> </li>
+                                <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
+                              </ul>
+                            </td>
+                            <td> Rhapsody </td>
+                            <td> Halloween</td>
+                            <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
+                              <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td> 6 </td>
+                            <td>
+                              <ul class="list-inline play">
+                                <li> <i class="fa fa-play"></i> </li>
+                                <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
+                              </ul>
+                            </td>
+                            <td> Metalica </td>
+                            <td> Master of Puppets </td>
+                            <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
+                              <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td> 7 </td>
+                            <td>
+                              <ul class="list-inline play">
+                                <li> <i class="fa fa-play"></i> </li>
+                                <li><a href="#"><i class="fa fa-pause text-danger"></i></a> <span class="sr-only">(current)</span></li>
+                              </ul>
+                            </td>
+                            <td> Dio </td>
+                            <td> Holy Diver  </td>
+                            <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
+                              <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
+                            </td>
+                          </tr>
+
+                          <tr class="default">
+                            <td> 8 </td>
+                            <td>
+                              <ul class="list-inline play">
+                                <li> <a href="#"><i class="fa fa-play text-primary"></i> <span class="sr-only">(current)</span></a></li>
+                                <li><i class="fa fa-pause "></i></a> </li>
+                              </ul>
+                            </td>
+                            <td> Pearl Jam </td>
+                            <td> Yellow Ledbetter  </td>
+                            <td> <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i> </button> |
+                              <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> </button>
+                            </td>
+                          </tr>
+
+
+                        </tbody>
+
+
+                      </table>
+                    </div>
+                  </div>
+                </div><!--/modal-body-->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+                  <button type="button" class="btn btn-primary">Salvar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+      </div>
 
-</section>
+    </section>
 
-<footer>
-  <p class="text-center"><a href="http://www.cristofersousa.com.br" target="_blank"> Cristofer Sousa </a> | Workshop Hello Opensanca 2016  </p>
-</footer>
+    <footer>
+      <p class="text-center"><a href="http://www.cristofersousa.com.br" target="_blank"> Cristofer Sousa </a> | Workshop Hello Opensanca 2016  </p>
+    </footer>
 
 
 
